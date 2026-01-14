@@ -1,0 +1,9 @@
+This repositories are 7 week projects.
+score=0
+q1=input("What is 2+2?:")
+if q1.strip()=="4":
+   score += 1
+q2=input("Can you jump?:")
+if q2=="Yes":
+   score += 1
+print(f"Your Score :{score}/2 ")
